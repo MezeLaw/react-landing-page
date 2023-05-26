@@ -8,10 +8,11 @@ import { Footer } from './components/footer/footer';
 function App() {
   return (
     <div>
+       <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <header>
-        <meta charSet="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
         <Navbar/>
         <Hero/>
         <Info/>
