@@ -1,0 +1,14 @@
+.footer {
+    background-color: #3B3566 !important;
+    color: #ffff;
+}
+
+.footer-logo {
+    max-width: 150px !important;
+    max-height: 50px !important;
+}
+
+.footer-anchor {
+    text-decoration: none !important;
+    color: #ffff;
+}

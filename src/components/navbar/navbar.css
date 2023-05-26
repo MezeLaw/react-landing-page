@@ -1,0 +1,14 @@
+.navbar {
+    min-height: 70px;
+    background-color: #3B3566 !important;
+}
+
+.logo-styles {
+    height: 50px !important;
+    width: 150px !important;
+}
+
+.custom-collapse {
+    background-color: #3B3566;
+    color: #ffffff; 
+}
