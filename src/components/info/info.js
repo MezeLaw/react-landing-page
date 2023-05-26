@@ -3,7 +3,7 @@ import './info.css'
 
 export function Info(){
     return (
-        <section className='info'>
+        <section id="event-info" className='info'>
             <div className="d-flex justify-content-center align-items-center">
                 <div className="text-center">
                     <h1 className="golden">Info del Evento</h1>

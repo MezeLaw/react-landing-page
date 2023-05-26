@@ -2,6 +2,11 @@ import 'bootstrap/dist/js/bootstrap';
 import './navbar.css'
 import logo from '../../assets/logo-white.png';
 
+const handleLinkClick = () => {
+  const section = document.getElementById('sign-up-form');
+  section.scrollIntoView({ behavior: 'smooth' });
+};
+
 export function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -15,7 +20,7 @@ export function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">Registro</a>
+              <a className="nav-link custom-btn" href="#sign-up-form" onClick={handleLinkClick}>Registro</a>
             </li>
           </ul>
         </div>

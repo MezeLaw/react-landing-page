@@ -7,11 +7,9 @@ import { Footer } from './components/footer/footer';
 import { Form } from './components/form/form'
 function App() {
   return (
-    <div>
-       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
+    <div> 
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <header>
         <Navbar/>
         <Hero/>

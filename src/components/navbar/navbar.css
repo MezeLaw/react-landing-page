@@ -12,3 +12,17 @@
     background-color: #3B3566;
     color: #ffffff; 
 }
+
+.custom-btn { 
+    border: none;
+    border-radius: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 7px;
+    margin: 1px 1px 0px;
+    color: #ffffff;
+}
+
+.custom-btn:hover {
+    background-color: #9e95f8;
+}
